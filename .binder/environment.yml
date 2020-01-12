@@ -1,0 +1,20 @@
+name: intel-tf2
+channels:
+  - intel
+  - conda-forge
+  - defaults
+dependencies:
+  - pip=19.3.1
+  - python=3.7.5
+  - gast==0.2.2
+  - intel::tensorflow=2.0.0
+  - pip:
+    - pandas
+    - matplotlib
+    - seaborn
+    - numpy
+    - keras
+    - sklearn
+    - streamlit
+    - jupyter-server-proxy
+    - nbserverproxy
