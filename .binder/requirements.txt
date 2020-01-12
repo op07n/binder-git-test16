@@ -1,0 +1,9 @@
+streamlit 
+pandas
+matplotlib
+seaborn
+numpy
+keras
+sklearn
+jupyter-server-proxy 
+nbserverproxy
